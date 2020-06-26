@@ -142,13 +142,13 @@ Run this automated one-liner from the directory you want to install your project
 #### No sample data
 
 ```bash
-curl -s https://raw.githubusercontent.com/kodergarten/docker-magento/master/lib/onelinesetup | bash -s -- magento2.test 2.3.5-p1
+curl -s https://raw.githubusercontent.com/kodergarten/docker-magento/mossl/lib/onelinesetup | bash -s -- magento2.test 2.3.5-p1
 ```
 
 #### With sample data
 
 ```bash
-curl -s https://raw.githubusercontent.com/kodergarten/docker-magento/master/lib/onelinesetup | bash -s -- magento2.test with-samples-2.3.5-p1
+curl -s https://raw.githubusercontent.com/kodergarten/docker-magento/nossl/lib/onelinesetup | bash -s -- magento2.test with-samples-2.3.5-p1
 ```
 
 The `magento2.test` above defines the hostname to use, and the `2.3.5-p1` defines the Magento version to install. Note that since we need a write to `/etc/hosts` for DNS resolution, you will be prompted for your system password during setup.
