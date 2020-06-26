@@ -154,7 +154,7 @@ Happy new year! 🎉
 - Fixed logic of `bin/copyfromcontainer` and `bin/copytocontainer` so subdirectories are now properly copied from and to the container
 
 ### Added
-- The `bin/fixowns` script now includes the ability to fix ownerships at the subdirectory level 
+- The `bin/fixowns` script now includes the ability to fix ownerships at the subdirectory level
 - The `bin/copyfromcontainer` and `bin/copytocontainer` scripts now fixes permissions and ownerships of just the subdirectories that are copied
 
 ## [24.1.2] - 2019-10-15

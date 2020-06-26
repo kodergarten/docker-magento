@@ -1,8 +1,8 @@
 #!/bin/bash
 git init -qqq
-git remote add origin https://github.com/markshust/docker-magento
+git remote add origin https://github.com/kodergarten/docker-magento
 git fetch origin -qqq
-git checkout origin/master -- compose
+git checkout origin/nossl -- compose
 mv compose/* ./
 mv compose/.vscode ./
 rm -rf compose .git
