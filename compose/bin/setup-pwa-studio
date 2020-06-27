@@ -6,4 +6,4 @@ git clone https://github.com/magento/pwa-studio.git
 cd pwa-studio
 yarn install
 yarn buildpack create-custom-origin packages/venia-concept
-MAGENTO_BACKEND_URL="https://$BASE_URL/" yarn buildpack create-env-file packages/venia-concept
+MAGENTO_BACKEND_URL="http://$BASE_URL/" yarn buildpack create-env-file packages/venia-concept

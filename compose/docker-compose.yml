@@ -10,7 +10,6 @@ services:
     image: koder-nginx:latest
     ports:
       - "80:8000"
-      - "443:8443"
     links:
       - db
       - phpfpm

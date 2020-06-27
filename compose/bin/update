@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir -p tmpupdate && cd $_
-curl -s https://raw.githubusercontent.com/markshust/docker-magento/nossl/lib/template | bash
+curl -s https://raw.githubusercontent.com/kodergarten/docker-magento/nossl/lib/template | bash
 rm -rf .git
 rsync -av ./ ../
 cd ..

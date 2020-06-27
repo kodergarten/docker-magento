@@ -104,4 +104,4 @@ echo "Generating SSL certificate..."
 bin/setup-ssl $BASE_URL
 
 echo "Docker development environment setup complete."
-echo "You may now access your Magento instance at https://${BASE_URL}/"
+echo "You may now access your Magento instance at http://${BASE_URL}/"

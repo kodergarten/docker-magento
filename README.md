@@ -142,7 +142,7 @@ Run this automated one-liner from the directory you want to install your project
 #### No sample data
 
 ```bash
-curl -s https://raw.githubusercontent.com/kodergarten/docker-magento/mossl/lib/onelinesetup | bash -s -- magento2.test 2.3.5-p1
+curl -s https://raw.githubusercontent.com/kodergarten/docker-magento/nossl/lib/onelinesetup | bash -s -- magento2.test 2.3.5-p1
 ```
 
 #### With sample data
