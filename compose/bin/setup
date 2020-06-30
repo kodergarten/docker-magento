@@ -60,9 +60,9 @@ bin/clinotty bin/magento setup:install \
   --admin-email=john.smith@gmail.com \
   --admin-user=john.smith \
   --admin-password=password123 \
-  --language=en_US \
-  --currency=USD \
-  --timezone=America/New_York \
+  --language=en_GB \
+  --currency=EUR \
+  --timezone=Europe/London \
   --amqp-host=rabbitmq \
   --amqp-port=5672 \
   --amqp-user=guest \
